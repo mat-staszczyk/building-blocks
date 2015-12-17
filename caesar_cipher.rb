@@ -18,3 +18,5 @@ puts "Input string:"
 string = gets.chomp
 puts "Shift factor:"
 shift = gets.chomp.to_i
+puts "Caesar Cipher:"
+puts caesar_cipher(string, shift)
