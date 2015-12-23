@@ -4,7 +4,6 @@ def stock_picker(array)
 	max = array[0,2]
 	array.combination(2).map { |x| max = x if (x.last - x.first) > (max.last - max.first) }
 	result = []
-	max.each do |y| 
-    result << array.find_index(y) 
-  end
+	max.each { |y| result << array.find_index(y) }
+  result[1] += 1 if result[0] == result[1]
 end
