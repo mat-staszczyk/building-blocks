@@ -7,4 +7,5 @@ def stock_picker(array)
 	max.each { |y| result << array.find_index(y) }
   result[1] += 1 if result[0] == result[1]
   return result
+rescue Exception => e
 end
