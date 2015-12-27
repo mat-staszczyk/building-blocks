@@ -8,4 +8,5 @@ def stock_picker(array)
   result[1] += 1 if result[0] == result[1]
   return result
 rescue Exception => e
+	puts e.message
 end
