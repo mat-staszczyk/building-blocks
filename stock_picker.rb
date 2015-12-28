@@ -10,3 +10,5 @@ def stock_picker(array)
 rescue Exception => e
 	puts e.message
 end
+
+puts "Enter stock prices for each day, seperated by comas:"
