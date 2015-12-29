@@ -12,3 +12,4 @@ rescue Exception => e
 end
 
 puts "Enter stock prices for each day, seperated by comas:"
+prices = gets.chomp.split(',').map { |price| price.to_i }
