@@ -5,4 +5,5 @@ def substrings(word, dictionary)
       results[d] += 1 if w.downcase[d.downcase] 
     end
   end
+  return results
 end
