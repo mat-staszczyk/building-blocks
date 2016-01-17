@@ -7,3 +7,6 @@ def substrings(word, dictionary)
   end
   return results
 end
+
+puts "Give me a word:"
+word = gets.chomp
