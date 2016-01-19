@@ -12,3 +12,5 @@ puts "Give me a word:"
 word = gets.chomp
 puts "Give me a dictionary (comma delimited):"
 dictionary = gets.chomp.split(",").map(&:strip)
+
+puts substrings(word, dictionary)
